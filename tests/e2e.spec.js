@@ -3,8 +3,9 @@ import { LoginPage } from '../pages/loginPage';
 import { InventoryPage } from '../pages/InventoryPage';
 import { CartPage } from '../pages/сartPage';
 import { CheckoutStepOnePage } from '../pages/сheckoutStepOnePage';
-import { CheckoutStepTwoPage } from '../pages/CheckoutStepTwoPage';
+import { CheckoutStepTwoPage } from '../pages/checkoutStepTwoPage';
 import { CheckoutCompletePage } from '../pages/checkoutCompletePage';
+
 
 test.describe('входа в систему и завершение покупки @ui', () => {
   test('', async ({ page }) => {
